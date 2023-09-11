@@ -1,0 +1,351 @@
+{
+    "name": "Quality",
+    "parent": "null",
+    "children": [
+      {
+        "name": "C1 - Comprehension",
+        "parent": "Quality",
+        "children": [
+          {
+            "name": "P01 - Accuracy",
+            "parent": "C1 - Comprehension",
+            "children": [
+              {
+                "name": "AP01",
+                "parent": "P01 - Accuracy"
+              },
+              {
+                "name": "AP03",
+                "parent": "P01 - Accuracy"
+              },
+              {
+                "name": "AP04",
+                "parent": "P01 - Accuracy"
+              },
+              {
+                "name": "AP05",
+                "parent": "P01 - Accuracy"
+              },
+              {
+                "name": "AP08",
+                "parent": "P01 - Accuracy"
+              }
+            ]
+          },
+          {
+            "name": "P02 - Saliency",
+            "parent": "C1 - Comprehension",
+            "children": [
+              {
+                "name": "AP14",
+                "parent": "P02 - Saliency"
+              },
+              {
+                "name": "AP16",
+                "parent": "P02 - Saliency"
+              },
+              {
+                "name": "AP20",
+                "parent": "P02 - Saliency"
+              }
+            ]
+          },
+          {
+            "name": "P03 - Color",
+            "parent": "C1 - Comprehension",
+            "children": [
+              {
+                "name": "AP18",
+                "parent": "P03 - Color"
+              },
+              {
+                "name": "AP19",
+                "parent": "P03 - Color"
+              },
+              {
+                "name": "AP21",
+                "parent": "P03 - Color"
+              },
+              {
+                "name": "AP22",
+                "parent": "P03 - Color"
+              }
+            ]
+          },
+          {
+            "name": "P05 - Visual clutter",
+            "parent": "C1 - Comprehension",
+            "children": [
+              {
+                "name": "AP06",
+                "parent": "P05 - Visual clutter"
+              },
+              {
+                "name": "AP32",
+                "parent": "P05 - Visual clutter"
+              },
+              {
+                "name": "AP33",
+                "parent": "P05 - Visual clutter"
+              },
+              {
+                "name": "AP34",
+                "parent": "P05 - Visual clutter"
+              }
+            ]
+          },
+          {
+            "name": "P06 - Focus",
+            "parent": "C1 - Comprehension"
+          },
+          {
+            "name": "P07 - Accesibility",
+            "parent": "C1 - Comprehension",
+            "children": [
+              {
+                "name": "AP10",
+                "parent": "P07 - Accesibility"
+              },
+              {
+                "name": "AP15",
+                "parent": "P07 - Accesibility"
+              },
+              {
+                "name": "AP23",
+                "parent": "P07 - Accesibility"
+              },
+              {
+                "name": "AP26",
+                "parent": "P07 - Accesibility"
+              },
+              {
+                "name": "AP27",
+                "parent": "P07 - Accesibility"
+              },
+              {
+                "name": "AP31",
+                "parent": "P07 - Accesibility"
+              },
+              {
+                "name": "AP55",
+                "parent": "P07 - Accesibility"
+              }
+            ]
+          },
+          {
+            "name": "P11 - Clarity",
+            "parent": "C1 - Comprehension",
+            "children": [
+              {
+                "name": "AP17",
+                "parent": "P11 - Clarity"
+              },
+              {
+                "name": "AP24",
+                "parent": "P11 - Clarity"
+              }
+            ]
+          },
+          {
+            "name": "P12 - Context",
+            "parent": "C1 - Comprehension",
+            "children": [
+              {
+                "name": "AP25",
+                "parent": "P12 - Context"
+              },
+              {
+                "name": "AP50",
+                "parent": "P12 - Context"
+              }
+            ]
+          },
+          {
+            "name": "P13 - Narrative",
+            "parent": "C1 - Comprehension",
+            "children": [
+              {
+                "name": "AP45",
+                "parent": "P13 - Narrative"
+              },
+              {
+                "name": "AP51",
+                "parent": "P13 - Narrative"
+              },
+              {
+                "name": "AP52",
+                "parent": "P13 - Narrative"
+              },
+              {
+                "name": "AP54",
+                "parent": "P13 - Narrative"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "C2 - Engagement",
+        "parent": "Top Level",
+        "children": [
+          {
+            "name": "P14 - User guidance",
+            "parent": "C2 - Engagement",
+            "children": [
+              {
+                "name": "AP48",
+                "parent": "P14 - User guidance"
+              },
+              {
+                "name": "AP49",
+                "parent": "P14 - User guidance"
+              }
+            ]
+          },
+          {
+            "name": "P16 - Consistency",
+            "parent": "C2 - Engagement"
+          },
+          {
+            "name": "P17 - Interactivity",
+            "parent": "C2 - Engagement",
+            "children": [
+              {
+                "name": "AP53",
+                "parent": "P17 - Interactivity"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "C3 - Information",
+        "parent": "Top Level",
+        "children": [
+          {
+            "name": "P04 - Layout",
+            "parent": "C3 - Information",
+            "children": [
+              {
+                "name": "AP28",
+                "parent": "P04 - Layout"
+              },
+              {
+                "name": "AP29",
+                "parent": "P04 - Layout"
+              },
+              {
+                "name": "AP35",
+                "parent": "P04 - Layout"
+              },
+              {
+                "name": "AP36",
+                "parent": "P04 - Layout"
+              },
+              {
+                "name": "AP37",
+                "parent": "P04 - Layout"
+              },
+              {
+                "name": "AP38",
+                "parent": "P04 - Layout"
+              },
+              {
+                "name": "AP39",
+                "parent": "P04 - Layout"
+              }
+            ]
+          },
+          {
+            "name": "P08 - Reliability",
+            "parent": "C3 - Information",
+            "children": [
+              {
+                "name": "AP07",
+                "parent": "P08 - Reliability"
+              },
+              {
+                "name": "AP09",
+                "parent": "P08 - Reliability"
+              },
+              {
+                "name": "AP11",
+                "parent": "P08 - Reliability"
+              },
+              {
+                "name": "AP12",
+                "parent": "P08 - Reliability"
+              },
+              {
+                "name": "AP13",
+                "parent": "P08 - Reliability"
+              },
+              {
+                "name": "AP40",
+                "parent": "P08 - Reliability"
+              },
+              {
+                "name": "AP41",
+                "parent": "P08 - Reliability"
+              },
+              {
+                "name": "AP42",
+                "parent": "P08 - Reliability"
+              },
+              {
+                "name": "AP43",
+                "parent": "P08 - Reliability"
+              },
+              {
+                "name": "AP44",
+                "parent": "P08 - Reliability"
+              }
+            ]
+          },
+          {
+            "name": "P09 - Redundancy",
+            "parent": "C3 - Information",
+            "children": [
+              {
+                "name": "AP30",
+                "parent": "P09 - Redundancy"
+              },
+              {
+                "name": "AP46",
+                "parent": "P09 - Redundancy"
+              },
+              {
+                "name": "AP47",
+                "parent": "P09 - Redundancy"
+              }
+            ]
+          },
+          {
+            "name": "P10 - Integrity",
+            "parent": "C3 - Information",
+            "children": [
+              {
+                "name": "AP02",
+                "parent": "P10 - Integrity"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "C4 - Memorability",
+        "parent": "Top Level",
+        "children": [
+          {
+            "name": "P15 - Metonimy",
+            "parent": "C4 - Memorability"
+          }
+        ]
+      },
+      {
+        "name": "C5 - Usability",
+        "parent": "Top Level"
+      }
+    ]
+  }
+  
