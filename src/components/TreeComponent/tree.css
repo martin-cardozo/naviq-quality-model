@@ -1,7 +1,7 @@
 
 .tree {
-  min-width: 100%;
-  min-height: 100%;
+  margin-top: 20rem;
+  border: 1px solid rgb(67, 67, 67);
 }
 
 .title {
@@ -10,11 +10,9 @@
 }
 
 .demo-container {
-  position: fixed;
   display: flex;
   flex-direction: row;
-  /* height: 100%; */
-  height: 1000px;
+  height: 100%;
   width: 100%;
 }
 
@@ -31,6 +29,7 @@
   display: flex;
   flex-direction: column;
   flex-basis: 1;
+  height: 45em;
   overflow-y: scroll;
 }
 
@@ -56,8 +55,8 @@
 
 .tree-container {
   width: auto;
-  height: 40em;
-  /* background: #ccf6c8; */
+  height: 45em;
+  background: #d5dcd5;
 }
 
 .prop-container {
@@ -119,7 +118,7 @@
 .rd3t-label__title{
   text-anchor: middle;
   x: 0;
-  font-size: 9px;
+  font-size: 50%;
 }
 
 /* Custom path classes */
@@ -146,13 +145,12 @@
 /* Estilos del Modal */
 /*Efecto*/
 .backdrop{
-  position: relative;
+  position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.8);
 
 }
 
@@ -162,7 +160,9 @@
   position: absolute;
   /* display: block; */
   background: #fff;
-  max-width: 40%;
+  width: 40%;
+  max-width: 400px;
+  min-height: 200px;
   margin:  120px 120px;
   padding: 5px 20px;
   box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.5);
@@ -189,6 +189,7 @@
   text-decoration: none;
   font-weight: bold;
   border-radius:3px;
+  cursor: pointer;
 
 }
 

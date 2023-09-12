@@ -8,15 +8,6 @@ import orgChart from './org-chart.json';
 
 
 export default function OrgChartTree() {
-  const getDynamicPathClass = ({ source, target }, orientation) => {
-    if (!target.children) {
-      // Target node has no children -> this link leads to a leaf node.
-      return "link__to-leaf"
-    }
-
-    // Style it as a link connecting two branch nodes by default.
-    return "link__to-branch"
-  }
 
   return (
     // `<Tree />` will fill width/height of its container; in this case `#treeWrapper`.

@@ -59,7 +59,7 @@ class TreeComponent extends Component {
       shouldCollapseNeighborNodes: true,
       initialDepth: 1,
       depthFactor: 180,
-      zoomable: true,
+      zoomable: false,
       draggable: true,
       zoom: 1,
       scaleExtent: { min: 0.8, max: 1 },
@@ -212,7 +212,7 @@ class TreeComponent extends Component {
           <div className="column-left">
             <div className="controls-container">
               <div className="prop-container">
-                <h4 className="prop">Orientation</h4>
+                <h4 className="prop">Orientación</h4>
                 <button
                   type="button"
                   className="btn btn-controls btn-block"
@@ -230,7 +230,7 @@ class TreeComponent extends Component {
               </div>
 
               <div className="prop-container">
-                <h4 className="prop">Path Function</h4>
+                <h4 className="prop">Función de ruta</h4>
                 <button
                   type="button"
                   className="btn btn-controls btn-block"
@@ -262,7 +262,7 @@ class TreeComponent extends Component {
               </div>
 
               <div className="prop-container">
-                <h4 className="prop">Collapsible</h4>
+                <h4 className="prop">Colapsable</h4>
                 <Switch
                   name="collapsibleBtn"
                   checked={this.state.collapsible}
@@ -271,7 +271,7 @@ class TreeComponent extends Component {
               </div>
 
               <div className="prop-container">
-                <h4 className="prop">Zoomable</h4>
+                <h4 className="prop">Ampliable</h4>
                 <Switch
                   name="zoomableBtn"
                   checked={this.state.zoomable}
@@ -280,7 +280,7 @@ class TreeComponent extends Component {
               </div>
 
               <div className="prop-container">
-                <h4 className="prop">Draggable</h4>
+                <h4 className="prop">Arrastrable</h4>
                 <Switch
                   name="draggableBtn"
                   checked={this.state.draggable}
@@ -290,7 +290,7 @@ class TreeComponent extends Component {
 
               <div className="prop-container">
                 <h4 className="prop">
-                  Center Nodes on Click (via <code>dimensions</code> prop)
+                  Centrar nodos al hacer clic (a través de la propiedad <code>dimensions</code>)
                 </h4>
                 <Switch
                   name="centerNodesBtn"
@@ -300,7 +300,7 @@ class TreeComponent extends Component {
               </div>
 
               <div className="prop-container">
-                <h4 className="prop">Collapse neighbor nodes</h4>
+                <h4 className="prop">Contraer nodos vecinos</h4>
                 <Switch
                   name="collapseNeighborsBtn"
                   checked={this.state.shouldCollapseNeighborNodes}
@@ -309,7 +309,7 @@ class TreeComponent extends Component {
               </div>
 
               <div className="prop-container">
-                <h4 className="prop">Enable Legacy Transitions</h4>
+                <h4 className="prop">Habilitar transiciones</h4>
                 <Switch
                   name="enableLegacyTransitionsBtn"
                   checked={this.state.enableLegacyTransitions}
@@ -323,7 +323,7 @@ class TreeComponent extends Component {
 
               <div className="prop-container">
                 <label className="prop" htmlFor="initialDepth">
-                  Initial Depth
+                  Profundidad inicial
                 </label>
                 <input
                   className="form-control"
@@ -337,7 +337,7 @@ class TreeComponent extends Component {
 
               <div className="prop-container">
                 <label className="prop" htmlFor="depthFactor">
-                  Depth Factor
+                  Factor de profundidad
                 </label>
                 <input
                   className="form-control"
@@ -352,7 +352,7 @@ class TreeComponent extends Component {
 
               <div className="prop-container">
                 <label className="prop" htmlFor="zoom">
-                  Zoom
+                  Zoom inicial
                 </label>
                 <input
                   className="form-control"
@@ -364,9 +364,9 @@ class TreeComponent extends Component {
               </div>
 
               <div className="prop-container">
-                <span className="prop prop-large">Scale Extent</span>
+                <span className="prop prop-large">Escala de ampliación</span>
                 <label className="sub-prop" htmlFor="scaleExtentMin">
-                  Min
+                  Minima
                 </label>
                 <input
                   className="form-control"
@@ -381,7 +381,7 @@ class TreeComponent extends Component {
                   }
                 />
                 <label className="sub-prop" htmlFor="scaleExtentMax">
-                  Max
+                  Maxima
                 </label>
                 <input
                   className="form-control"
@@ -398,9 +398,9 @@ class TreeComponent extends Component {
               </div>
 
               <div className="prop-container">
-                <span className="prop prop-large">Node separation</span>
+                <span className="prop prop-large">Separación entre nodos</span>
                 <label className="sub-prop" htmlFor="separationSiblings">
-                  Siblings
+                  Hermanos
                 </label>
                 <input
                   className="form-control"
@@ -415,7 +415,7 @@ class TreeComponent extends Component {
                   }
                 />
                 <label className="sub-prop" htmlFor="separationNonSiblings">
-                  Non-Siblings
+                  No-Hermanos
                 </label>
                 <input
                   className="form-control"
@@ -432,9 +432,9 @@ class TreeComponent extends Component {
               </div>
 
               <div className="prop-container">
-                <span className="prop prop-large">Node size</span>
+                <span className="prop prop-large">Tamaño del nodo</span>
                 <label className="sub-prop" htmlFor="nodeSizeX">
-                  X
+                  Eje X
                 </label>
                 <input
                   className="form-control"
@@ -446,7 +446,7 @@ class TreeComponent extends Component {
                   }
                 />
                 <label className="sub-prop" htmlFor="nodeSizeY">
-                  Y
+                  Eje Y
                 </label>
                 <input
                   className="form-control"
@@ -461,7 +461,7 @@ class TreeComponent extends Component {
 
               <div className="prop-container">
                 <label className="prop" htmlFor="transitionDuration">
-                  Transition Duration
+                  Tiempo de transición (ms)
                 </label>
                 <input
                   className="form-control"
@@ -473,7 +473,7 @@ class TreeComponent extends Component {
               </div>
               <div className="prop-container">
                 <label className="prop" htmlFor="centeringTransitionDuration">
-                  Centering Transition Duration
+                  Tiempo de transición de centrado (ms)
                 </label>
                 <input
                   className="form-control"
