@@ -5,7 +5,7 @@ import Footer from "./components/Footer"
 import Home from "./components/Home"
 import ListComponents from "./components/ListComponents"
 // import Navbar from "./components/Navbar"
-import TreeComponent from "./components/TreeComponent/TreeComponent"
+// import TreeComponent from "./components/TreeComponent/TreeComponent"
 import Work from "./components/Work"
 
 
@@ -18,7 +18,7 @@ function App() {
         <Work />
         <Chart />
         <About />
-        <TreeComponent />
+        {/* <TreeComponent /> */}
         <Footer />
       </div>
     </>
